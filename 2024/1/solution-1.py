@@ -1,5 +1,5 @@
 def configureInput() -> tuple:
-    with open('input.txt','r+') as r:
+    with open('input-1.txt','r+') as r:
         lines = [line.strip('\n') for line in r.readlines()]
         left = [int(line[0:5]) for line in lines]
         right = [int(line[8:13]) for line in lines]
